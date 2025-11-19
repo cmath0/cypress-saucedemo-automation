@@ -22,7 +22,7 @@ class LoginPage {
     this.clickLogin()
   }
 
-  loginUsuarioPadrao() {
+  loginWithStandardUser() {
     cy.fixture('users.json').then(users => {
         const user = users.standardUser
 
