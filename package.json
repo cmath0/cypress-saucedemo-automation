@@ -1,0 +1,17 @@
+{
+  "name": "cypress-saucedemo-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cyopen": "cypress open",
+    "cytest": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^15.6.0"
+  }
+}
