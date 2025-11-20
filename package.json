@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "cyopen": "cypress open",
-    "cytest": "cypress run"
+    "cytest": "cypress run",
+    "cytest:cloud": "cypress run --record"
   },
   "keywords": [],
   "author": "",
